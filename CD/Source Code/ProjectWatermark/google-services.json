@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1060567820081",
+    "firebase_url": "https://video-watermarking.firebaseio.com",
+    "project_id": "video-watermarking",
+    "storage_bucket": "video-watermarking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060567820081:android:07891e8dbb085c01",
+        "android_client_info": {
+          "package_name": "com.projectwatermark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060567820081-b9gjbst49943jls4qpfg28trffbca9qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3qOsa3MIeZsyz1oqFCBCQ78OJfHhIimY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

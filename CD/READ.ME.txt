@@ -1,0 +1,45 @@
+===============================================================================================
+
+Author's Identity
+
+Project Group Members:
+
+Himanshu Soni	 (1301410040)
+Ajeet Singh Sisodiya   (1301410011)
+Ved Prakash	 (1301410102)
+Gajanand Bharti 	 (1301410035)
+Sushil Gupta	 (1301410093)
+
+Supervisor Name:
+
+Mr Mukesh Azad
+
+===============================================================================================
+
+Files in the CD
+
+1-Application Folder:  Contain "Design & Development of Video Watermarking.apk",  original installation file.
+
+2-Presentation Folder:  Contain "Design & Development of Video Watermarking.pptx", project presentation file.
+
+3-Report Folder:  Contain "Design & Development of Video Watermarking.docx", project document report file.
+
+4-Sample Folder:  Contain two subfolder i.e.
+	4.1-Sample Input Folder:  Contains sample media input data needed under sub-folder "Image" and "Video".
+	4.2-Sample Output Folder:  Contains sample outputs.
+
+5-Source Code Folder:  Contains original source code of project which will run on android studio for project development and maintainence.
+
+===============================================================================================
+
+Hardware Requirements
+
+Storage Space:  Minimum storage space required 27MB.
+Touch Screen:  Required to operate app.
+RAM: Minimum 128MB RAM required. 
+Network Connectivity:  Required for fully functional app features. 
+GPU Compatibility:  ARM or x86 required.
+
+Software Requirements
+
+OS: Android Kitkat or above.

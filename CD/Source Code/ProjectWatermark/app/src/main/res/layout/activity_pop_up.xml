@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pop_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true"
+    tools:context="com.projectwatermark.Share">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:id="@+id/frmCon"
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myColor"
+        android:alpha="0.5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:gravity="center"
+        android:text="Share"
+        android:id="@+id/txtSt"
+        android:textSize="32sp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInstagram"
+        android:src="@drawable/insta_nt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/roundcorner"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:src="@drawable/twit_nt"
+        android:id="@+id/btnTwitter"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btnWhatsapp"
+        android:background="@drawable/roundcorner"
+        android:src="@drawable/whats_nt"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="280dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btnFb"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundcorner"
+        android:src="@drawable/fb_nt" />
+
+
+</FrameLayout>
+</ScrollView>

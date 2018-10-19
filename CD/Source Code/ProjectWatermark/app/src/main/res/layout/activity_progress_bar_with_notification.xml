@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_progress_bar_with_notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.projectwatermark.ProgressBarWithNotification">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.75"
+        android:background="@color/white"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        />
+
+            <TextView
+                android:text="Do you really want to apply changes?"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtMsg"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="32sp"/>
+
+            <Button
+                android:text="Yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnYes"
+                android:drawableTop="@drawable/u"
+                android:background="@drawable/roundcorner"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="50dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:text="No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNo"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="200dp"
+                android:drawableTop="@drawable/d"
+                android:background="@drawable/roundcorner"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+</FrameLayout>
+
+</ScrollView>

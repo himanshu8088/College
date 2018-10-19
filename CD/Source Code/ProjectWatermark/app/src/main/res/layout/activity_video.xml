@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projectwatermark.Video">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameVideo"
+        >
+
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/videoV"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="180dip"
+        android:content="@+id/contentLayout"
+        android:handle="@+id/slideButton"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+         >
+
+
+        <ImageButton
+            android:id="@+id/slideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:src="@drawable/swipe"
+            android:rotation="90"
+            android:onClick="slide"
+            android:background="@drawable/roundcorner"
+            >
+        </ImageButton>
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnPlay"
+                    android:src="@drawable/p"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/roundcorner"/>
+                <SeekBar
+                    android:layout_width="220dp"
+                    android:id="@+id/seekBar"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+
+                    />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pause"
+                    android:background="@drawable/roundcorner"
+                    android:id="@+id/btnPause"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLabel"
+                android:text="Choose corner to place logo"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold|italic"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:paddingTop="15dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTL"
+                    android:src="@drawable/arrow"
+                    android:rotation="45"
+                    android:background="@drawable/roundcorner"
+                    android:layout_weight="1"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnBR"
+                    android:background="@drawable/roundcorner"
+                    android:src="@drawable/arrow"
+                    android:rotation="225"
+                    android:layout_weight="1"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnC"
+                    android:background="@drawable/roundcorner"
+                    android:src="@drawable/circle"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnBL"
+                    android:src="@drawable/arrow"
+                    android:rotation="315"
+                    android:background="@drawable/roundcorner"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTR"
+                    android:src="@drawable/arrow"
+                    android:rotation="135"
+                    android:background="@drawable/roundcorner"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>
